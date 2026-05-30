@@ -31,15 +31,15 @@ The dataset covers 7 parties and 8 leading candidates:
 The dataset is split chronologically to support realistic evaluation settings in which models are trained on earlier campaign data and applied to later periods. It comprises the following subsets:
 
 **Training subsets** (initiation phase, Oct 2024 – Jan 2025):
-- `t_init` — prediction-balanced, non-ambiguous
+- `t_init` — prediction-balanced, initial sample
 - `t_amb` — prediction-balanced, ambiguous
 - `t_pop` — popular posts
 
 **Evaluation subsets** (weekly intervals, Jan – Feb 2025):
-- `b1--b4` — prediction-balanced, ambiguous
-- `b5` — prediction-balanced, fair
-- `b6` — prediction-balanced, non-ambiguous
-- `p1--p6` — popular posts (most-shared)
+- `b1_amb--b4_amb` — prediction-balanced, ambiguous
+- `b5_fair` — prediction-balanced, fair
+- `b6_namb` — prediction-balanced, non-ambiguous
+- `p1_pop--p6_pop` — popular posts (most-shared)
 
 ## Data Format
 
